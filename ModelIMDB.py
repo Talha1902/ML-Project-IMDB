@@ -12,7 +12,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 # Import dataset and replace labels with 0 and 1 for classification
-df = pd.read_csv('Dummy Dataset.csv', encoding='Latin-1')
+df = pd.read_csv('IMDB Dataset.csv', encoding='Latin-1')
 df['sentiment'] = df['sentiment'].map({'positive': 1, 'negative': 0})
 
 # Define stop_words and lemmatizer
