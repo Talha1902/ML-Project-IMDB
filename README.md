@@ -4,13 +4,14 @@
 This Python script performs sentiment analysis on a given dataset using Support Vector Machines (SVMs). Sentiment analysis involves determining the sentiment or opinion expressed in a piece of text, typically categorized as positive or negative.
 
 # 1.	Dependencies
-•	nltk: Natural Language Toolkit for text processing tasks.
-•	pandas: Library for data manipulation and analysis.
-•	re: Regular expression operations for string manipulation.
-•	BeautifulSoup: Library for pulling data out of HTML and XML files.
-•	sklearn: Library providing tools for machine learning tasks.
-•	WordNetLemmatizer: Lemmatization tool from NLTK for word normalization.
-•	stopwords: NLTK corpus containing common stop words.
+1.	nltk: Natural Language Toolkit for text processing tasks.
+2.	pandas: Library for data manipulation and analysis.
+3.	re: Regular expression operations for string manipulation.
+4.	BeautifulSoup: Library for pulling data out of HTML and XML files.
+5.	sklearn: Library providing tools for machine learning tasks.
+6.	WordNetLemmatizer: Lemmatization tool from NLTK for word normalization.
+7.	stopwords: NLTK corpus containing common stop words.
+
 # 2. Usage
 •	Ensure you have all dependencies installed. You can install them via pip: pip install nltk pandas scikit-learn beautifulsoup4.
 •	Make sure you have a dataset file named Dummy Dataset.csv in the same directory as the script.
