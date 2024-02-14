@@ -13,23 +13,27 @@ This Python script performs sentiment analysis on a given dataset using Support 
 7.	stopwords: NLTK corpus containing common stop words.
 
 # 2. Usage
-•	Ensure you have all dependencies installed. You can install them via pip: pip install nltk pandas scikit-learn beautifulsoup4.
-•	Make sure you have a dataset file named Dummy Dataset.csv in the same directory as the script.
-•	Run the script.
+1.	Ensure you have all dependencies installed. You can install them via pip: pip install nltk pandas scikit-learn beautifulsoup4.
+2.	Make sure you have a dataset file named Dummy Dataset.csv in the same directory as the script.
+3.	Run the script.
+
 # 3.	Description
-•	The script imports necessary libraries including NLTK, Pandas, BeautifulSoup, and scikit-learn modules.
-•	It defines functions for text preprocessing including HTML tag removal, text cleaning, and lemmatization.
-•	The dataset is loaded using Pandas, where sentiment labels are converted to binary values (0 for negative and 1 for positive).
-•	Text preprocessing is applied to the reviews column in the dataset to clean and normalize the text.
-•	The dataset is split into training and testing sets.
+1.	The script imports necessary libraries including NLTK, Pandas, BeautifulSoup, and scikit-learn modules.
+2.	It defines functions for text preprocessing including HTML tag removal, text cleaning, and lemmatization.
+3.	The dataset is loaded using Pandas, where sentiment labels are converted to binary values (0 for negative and 1 for positive).
+4.	Text preprocessing is applied to the reviews column in the dataset to clean and normalize the text.
+5.	The dataset is split into training and testing sets.
+
 # 4.	Bag of Words (BoW) vectorization is performed on the processed text data.
-•	An SVM model is trained on the BoW vectors.
-•	Classification report is printed to evaluate the SVM model's performance.
-•	A pipeline is created for performing grid search to find the optimal hyperparameters for the SVM model.
-•	Grid search is conducted using cross-validation to find the best combination of hyperparameters.
-•	Results of the grid search, including the best score and parameters, are printed.
+1.	An SVM model is trained on the BoW vectors.
+2.	Classification report is printed to evaluate the SVM model's performance.
+3.	A pipeline is created for performing grid search to find the optimal hyperparameters for the SVM model.
+4.	Grid search is conducted using cross-validation to find the best combination of hyperparameters.
+5.	Results of the grid search, including the best score and parameters, are printed.
+
 # 5.	Note
-•	Ensure that the dataset file IMDB Dataset.csv is present in the same directory as the script.
-•	Depending on the size of your dataset and computational resources, grid search may take a considerable amount of time to complete.
+1.	Ensure that the dataset file IMDB Dataset.csv is present in the same directory as the script.
+2.	Depending on the size of your dataset and computational resources, grid search may take a considerable amount of time to complete.
+
 # •	Author
 This script is authored by Muhammad Talha Riaz.
